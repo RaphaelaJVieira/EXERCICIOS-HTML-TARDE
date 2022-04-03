@@ -40,29 +40,27 @@
             <tr>
                 <td><label for="genero">Gênero</label></td>
                 <td>
-                    <input type="radio" name="sm" id="m" checked="true" /> <label >Masculino</label>
-                    <input type="radio" name="sf" id="f" /> <label >Feminino</label>
-                    <input type="radio" name="sn" id="n"/> <label >Não informar</label>
+                  <input type="radio" name="sexomasculino" id="sexomasculino" checked="true"><label>Masculino</label>
+                  <input type="radio" name="sexofeminino"  id="sexofeminino" ><label>Feminino</label>
+                  <input type="radio" name="naoinformar"  id="naoinformar"><label>Não informar</label>
                 </td>
             </tr>
-
             <tr>
                 <td><label for="idade">Idade</label></td>
-                <td>
-                    <select id="idade" name="idade">
-                        <option value="">Selecione</option>
-                        <option value="crianca">Criança</option>
-                        <option value="adulto">Adulto</option>
-                        <option value="idoso">Idoso</option>
-                    </select>
+                    <td>
+                        <select name="idade" name="idade">
+                            <option value="selecione">Selecione</option>
+                            <option value="crianca">Criança</option>
+                            <option value="adulto">Adulto</option>
+                            <option value="idoso">Idoso</option>
+                        </select>
                 </td>
             </tr>
-
             <tr>
-                <td><label for="picture">Foto de Perfil</label></td>
-                <td><input id="picture" type="file" name="picture"required="true"/></td>
+                <td><label for="picture">Foto do Perfil</label></td>
+               <td><input id="picture" type="file" name="picture" required="true"></td> 
             </tr>
-
+            
             <tr>
                 <td colspan="2">
                     <input type="button" value="Cadastrar" name="cadastrar" id="cadastrar" />
